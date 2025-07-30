@@ -1,0 +1,117 @@
+.custom-modal-wallet .wallet-adapter-modal-wrapper {
+  background: #fff;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+.custom-modal-wallet .wallet-adapter-modal-button-close {
+  background-color: transparent;
+}
+.custom-modal-wallet .wallet-adapter-modal-button-close svg {
+  fill: #000;
+}
+.custom-modal-wallet .wallet-adapter-modal-title {
+  color: #000;
+  font-family: "InterDisplay", "sans-serif";
+}
+
+.custom-modal-wallet .wallet-adapter-button {
+  color: #252525;
+  font-family: "InterDisplay", "sans-serif";
+  font-size: 14px;
+  font-weight: 500;
+}
+.custom-modal-wallet .wallet-adapter-button:hover {
+  background: rgb(172, 172, 172);
+}
+
+.header-connect .wallet-adapter-modal-list .wallet-adapter-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  /* background: linear-gradient(
+    80.17deg,
+    #27beff 8.52%,
+    #6fd4ff 55.08%
+  ) !important; */
+  /* border: 2px solid rgba(1, 147, 209, 1) !important; */
+  border-radius: 16px !important;
+  @apply !bg-primary;
+}
+.header-connect .wallet-adapter-button {
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start !important;
+  align-items: center;
+  padding: 16px 16px;
+  /* background: linear-gradient(
+    80.17deg,
+    #27beff 8.52%,
+    #6fd4ff 55.08%
+  ) !important; */
+  /* border: 2px solid rgba(1, 147, 209, 1) !important; */
+  border-radius: 50px !important;
+  @apply !bg-black;
+}
+.header-connect .wallet-adapter-button-start-icon {
+  margin-right: 0 !important;
+}
+
+.future-connect .wallet-adapter-modal-list .wallet-adapter-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  /* background: linear-gradient(
+    80.17deg,
+    #27beff 8.52%,
+    #6fd4ff 55.08%
+  ) !important; */
+  /* border: 2px solid rgba(1, 147, 209, 1) !important; */
+  border-radius: 16px !important;
+  @apply !bg-primary;
+}
+
+.future-connect .wallet-adapter-dropdown {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.future-connect .wallet-adapter-button {
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  width: 100%;
+  /* background: linear-gradient(
+    80.17deg,
+    #27beff 8.52%,
+    #6fd4ff 55.08%
+  ) !important; */
+  /* border: 2px solid rgba(1, 147, 209, 1) !important; */
+  border-radius: 16px !important;
+  @apply !bg-primary;
+}
+.future-connect .wallet-adapter-button-start-icon {
+  margin-right: 0 !important;
+}
+
+.info-wallet .wallet-adapter-button .wallet-adapter-button-start-icon {
+  display: none !important;
+}
+.info-wallet .wallet-adapter-button {
+  background: transparent !important;
+  border: none !important;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  text-align: center;
+  padding: 0 !important;
+  height: 56px !important;
+}

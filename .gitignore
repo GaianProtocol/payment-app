@@ -1,0 +1,17 @@
+# ▶ Build output
+/build
+/dist
+
+# ▶ Dependency directory
+/node_modules
+
+# ▶ Production environment files
+.env
+.env.*
+!.env.example
+
+# ▶ Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
